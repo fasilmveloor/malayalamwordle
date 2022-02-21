@@ -14,7 +14,7 @@ export const shareStatus = (
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
-      generateEmojiGrid(guesses)
+      generateEmojiGrid(guesses) + '\n https://fasilmveloor.github.io/padhavetta/'
   )
 }
 
@@ -44,5 +44,5 @@ export const generateEmojiGrid = (guesses: string[]) => {
         })
         .join('')
     })
-    .join('\n\n https://fasilmveloor.github.io/padhavetta/')
+    .join('\n')
 }
