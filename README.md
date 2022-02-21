@@ -46,4 +46,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ![Screenshots 4](screenshots/ss(4).png)
 ![Screenshots 5](screenshots/ss(5).png)
 ![Screenshots 6](screenshots/ss(6).png)
-![Screenshots 7](screenshots/ss(7).png)
