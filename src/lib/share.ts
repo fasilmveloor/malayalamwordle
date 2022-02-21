@@ -3,6 +3,7 @@ import { solutionIndex } from './words'
 import { GAME_TITLE } from '../constants/strings'
 import { getStoredIsHighContrastMode } from './localStorage'
 import { MAX_CHALLENGES } from '../constants/settings'
+import { toMalayalamLetters } from '../constants/utils'
 
 export const shareStatus = (
   guesses: string[],
@@ -22,9 +23,7 @@ export const generateEmojiGrid = (guesses: string[]) => {
     .map((guess) => {
       const status = getGuessStatuses(guess)
       const isHighContrast = getStoredIsHighContrastMode()
-      return guess
-        .split('')
-        .map((_, i) => {
+      return toMalayalamLetters(guess).map((_, i) => {
           switch (status[i]) {
             case 'correct':
               if (isHighContrast) {
@@ -45,5 +44,5 @@ export const generateEmojiGrid = (guesses: string[]) => {
         })
         .join('')
     })
-    .join('\n')
+    .join('\n\n https://fasilmveloor.github.io/padhavetta/')
 }
