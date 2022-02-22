@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/padhavetta/static/css/main.ef97b81d.css",
-    "main.js": "/padhavetta/static/js/main.255c8db9.js",
+    "main.js": "/padhavetta/static/js/main.f6972541.js",
     "static/js/787.e10807d7.chunk.js": "/padhavetta/static/js/787.e10807d7.chunk.js",
     "index.html": "/padhavetta/index.html",
     "main.ef97b81d.css.map": "/padhavetta/static/css/main.ef97b81d.css.map",
-    "main.255c8db9.js.map": "/padhavetta/static/js/main.255c8db9.js.map",
+    "main.f6972541.js.map": "/padhavetta/static/js/main.f6972541.js.map",
     "787.e10807d7.chunk.js.map": "/padhavetta/static/js/787.e10807d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef97b81d.css",
-    "static/js/main.255c8db9.js"
+    "static/js/main.f6972541.js"
   ]
 }
