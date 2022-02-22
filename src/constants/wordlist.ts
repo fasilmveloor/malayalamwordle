@@ -1,4 +1,4 @@
-﻿export const WORDS = [
+export const WORDS = [
   'അളവുകോൽ',
   'അത്യപൂർവം',
   'അൽപ്പകാലം',

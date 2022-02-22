@@ -70,7 +70,7 @@ export function isValid(letters:string[], ch:string) {
         return true;
       }
       else if(last[last.length-1] === "\u0D4D" && !vowels[last[last.length-2]]) {
-        if( ch === 'ര' || ch === 'വ' ) {
+        if( ch === 'ര' || ch === 'വ' || ch === 'യ') {
           return true;
         }
         else if(ch === last[last.length-2]) {
