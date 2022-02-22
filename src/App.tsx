@@ -256,9 +256,9 @@ function App() {
          <Cell
          key={i}
          value={key}
-         status='correct'
+         status={i > 1 ? 'present':'correct'}
          position={i}
-         isRevealing={true}
+         isRevealing={false}
          isCompleted={true}
        />
         ))}

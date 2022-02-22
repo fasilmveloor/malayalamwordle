@@ -26,11 +26,6 @@ export const SettingsModal = ({
     <BaseModal title="ക്രമീകരണങ്ങൾ" isOpen={isOpen} handleClose={handleClose}>
       <div className="grid-cols-2 gap-4">
         <SettingsToggle
-          settingName="ഹാർഡ് മോഡ്"
-          flag={isHardMode}
-          handleFlag={handleHardMode}
-        />
-        <SettingsToggle
           settingName="ഡാർക്ക് മോഡ്"
           flag={isDarkMode}
           handleFlag={handleDarkMode}

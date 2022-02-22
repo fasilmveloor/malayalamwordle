@@ -1,5 +1,5 @@
 //export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
-export const GAME_TITLE = 'പദവേട്ട'
+export const GAME_TITLE = 'വേർഡ്‌ലി'
 export const WIN_MESSAGES = ['താങ്കൾ വിജയിച്ചിരിക്കുന്നു ', 'താങ്കൾ വിജയിച്ചിരിക്കുന്നു ', 'താങ്കൾ വിജയിച്ചിരിക്കുന്നു ']
 export const GAME_COPIED_MESSAGE = 'ഗെയിം ക്ലിപ്ബോർഡിലേക്ക് പകർത്തിയിട്ടുണ്ട് '
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'മതിയായ വാക്കുകളില്ല '
