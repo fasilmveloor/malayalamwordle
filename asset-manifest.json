@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/malayalamwordle/static/css/main.ef97b81d.css",
-    "main.js": "/malayalamwordle/static/js/main.c17f941a.js",
+    "main.js": "/malayalamwordle/static/js/main.c3ee2b4a.js",
     "static/js/787.e10807d7.chunk.js": "/malayalamwordle/static/js/787.e10807d7.chunk.js",
     "index.html": "/malayalamwordle/index.html",
     "main.ef97b81d.css.map": "/malayalamwordle/static/css/main.ef97b81d.css.map",
-    "main.c17f941a.js.map": "/malayalamwordle/static/js/main.c17f941a.js.map",
+    "main.c3ee2b4a.js.map": "/malayalamwordle/static/js/main.c3ee2b4a.js.map",
     "787.e10807d7.chunk.js.map": "/malayalamwordle/static/js/787.e10807d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef97b81d.css",
-    "static/js/main.c17f941a.js"
+    "static/js/main.c3ee2b4a.js"
   ]
 }
