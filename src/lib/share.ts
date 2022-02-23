@@ -1,4 +1,4 @@
-import { getGuessStatuses } from './statuses'
+﻿import { getGuessStatuses } from './statuses'
 import { solutionIndex } from './words'
 import { GAME_TITLE } from '../constants/strings'
 import { getStoredIsHighContrastMode } from './localStorage'
@@ -14,7 +14,7 @@ export const shareStatus = (
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
-      generateEmojiGrid(guesses) + '\n https://fasilmveloor.github.io/padhavetta/'
+      generateEmojiGrid(guesses) + '\n https://fasilmveloor.github.io/malayalamwordle/'
   )
 }
 
